@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "../../assets/website/orange-pattern.jpg";
 
 const BannerImg = {
-  backgroundImage: `url(${Banner})`,
+  backgroundImage: `url(${Banner})`, // use backticks here
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
@@ -14,7 +14,7 @@ const Subscribe = () => {
   return (
     <div
       data-aos="zoom-in"
-      className="mb-20 bg-gray-100 dark:bg-gray-800 text-white "
+      className="bg-gray-100 dark:bg-gray-800 text-white" // removed mb-20
       style={BannerImg}
     >
       <div className="container backdrop-blur-sm py-10">
@@ -26,7 +26,7 @@ const Subscribe = () => {
             data-aos="fade-up"
             type="text"
             placeholder="Enter your email"
-            className="w-full p-3"
+            className="w-full p-3 rounded-md text-black"
           />
         </div>
       </div>

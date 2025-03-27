@@ -28,7 +28,7 @@ const Navbar = ({ handleOrderPopup }) => {
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo Section */}
           <a href="#" className="flex items-center">
-            <img src={Logo} alt="Logo" className="w-20 h-auto" />
+          <img src={Logo} alt="Logo" className="w-40 h-auto object-contain" />
           </a>
 
           {/* Search Bar & Action Icons */}
